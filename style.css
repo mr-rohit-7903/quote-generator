@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #BBC8FE;
+}
+
+.box{
+    width: 600px;
+    background: #fff;
+    box-shadow: 5px 5px 10px #53535363;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 40px;
+}
+hr {
+    border: none; 
+    border-top: 2px solid #3d62f9;
+    width: 9%;
+    margin: 8px auto;
+}
+
+.quote{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 10% 10px 10%;
+}
+.author{
+    text-align: right;
+    font-size: 20px;
+    padding: 20px 40px 20px 20px;
+}
+.author span{
+    color:#3d62f9;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.new,
+.tweet{
+    padding: 16px;
+    background: #3d62f9;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    border-radius: 30px;
+    margin: 30px 0 50px 0;
+    cursor: pointer;
+}
+.tweet i{
+    padding-right: 5px;
+}
+
+@media (max-width: 763px){
+    .title{
+        font-size: 24px;
+    }
+    .box{
+        width:400px;
+    }
+    .quote{
+        font-size: 20px;
+    }
+    .author{
+        font-size: 16px;
+    }
+    .new,
+    .tweet{
+        font-size: 12px;
+        margin: 16px 0 30px 0;
+    }
+    .tweet i{
+        padding-right: 2px;
+    }
+}
